@@ -264,7 +264,7 @@
 
     <!--设置项目编译级别等设置 start-->
     <build>
-        <finalName>com.youmeek.ssm</finalName>
+        <finalName>${project.artifactId}</finalName>
         <resources>
             <!--表示把java目录下的有关xml文件,properties文件编译/打包的时候放在resource目录下-->
             <resource>
