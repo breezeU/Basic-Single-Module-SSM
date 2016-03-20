@@ -8,6 +8,6 @@
     - IDE：IntelliJ IDEA
     - 构建：Maven
     - SSM 版本：
-        - <spring.version>3.2.16.RELEASE</spring.version>
-        - <mybatis.version>3.3.1</mybatis.version>
-        - <mybatis-spring.version>1.2.4</mybatis-spring.version>
+        - spring.version：3.2.16.RELEASE
+        - mybatis.version：3.3.1
+        - mybatis-spring-version：1.2.4
