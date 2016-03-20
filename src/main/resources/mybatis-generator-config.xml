@@ -30,7 +30,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <!--要生成的 domain 模块位置-->
+        <!--要生成的 pojo 模块位置-->
         <javaModelGenerator targetPackage="com.generator.domain" targetProject="THIS_CONFIGURATION_IS_NOT_REQUIRED">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>

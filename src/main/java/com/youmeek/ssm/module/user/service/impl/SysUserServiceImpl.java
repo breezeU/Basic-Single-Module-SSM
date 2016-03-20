@@ -1,7 +1,7 @@
 package com.youmeek.ssm.module.user.service.impl;
 
-import com.youmeek.ssm.module.user.domain.SysUser;
 import com.youmeek.ssm.module.user.mapper.SysUserMapper;
+import com.youmeek.ssm.module.user.pojo.SysUser;
 import com.youmeek.ssm.module.user.service.SysUserService;
 import org.springframework.stereotype.Service;
 

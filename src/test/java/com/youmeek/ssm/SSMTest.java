@@ -1,6 +1,6 @@
 package com.youmeek.ssm;
 
-import com.youmeek.ssm.module.user.domain.SysUser;
+import com.youmeek.ssm.module.user.pojo.SysUser;
 import com.youmeek.ssm.module.user.service.SysUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

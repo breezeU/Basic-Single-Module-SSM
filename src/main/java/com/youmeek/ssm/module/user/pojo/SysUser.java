@@ -1,4 +1,4 @@
-package com.youmeek.ssm.module.user.domain;
+package com.youmeek.ssm.module.user.pojo;
 
 import java.util.Date;
 

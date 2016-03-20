@@ -1,6 +1,6 @@
 package com.youmeek.ssm.module.user.controller;
 
-import com.youmeek.ssm.module.user.domain.SysUser;
+import com.youmeek.ssm.module.user.pojo.SysUser;
 import com.youmeek.ssm.module.user.service.SysUserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
