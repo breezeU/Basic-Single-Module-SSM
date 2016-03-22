@@ -29,7 +29,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 
     <!-- 使用阿里的druid配置数据源 start-->
     <!--具体查看官网信息：https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_DruidDataSource%E5%8F%82%E8%80%83%E9%85%8D%E7%BD%AE-->
-    <bean id="dataSource" name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <!--这三个变量读取config.properties的-->
         <property name="url" value="${data_source_url}"/>
         <property name="username" value="${data_source_username}"/>
